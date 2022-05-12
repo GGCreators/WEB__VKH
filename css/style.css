@@ -32,4 +32,66 @@ body {
 	height: 100%;
 	line-height: 1;
 }
+body {
+	font-family: Libre Baskerville;
+	font-size: 14px;
+	color: #243970;
+}
 /* ------------------------- */
+.wrapper {
+overflow: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+/* ------------------------- */
+
+.main {
+	flex: 1 1 auto;
+}
+
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.header {
+}
+.header__container {
+
+}
+.header__first {
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+.header__logo {
+	width: 290px;
+}
+.header__social {
+margin-left: auto;
+}
+.social__icon {
+	color: #b10808;
+}
+.header__phone {
+}
+.header__menu {
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	line-height: 14px;
+	text-transform: uppercase;
+	min-height: 46px;
+	align-items: center;
+}
+.mainlink {
+	font-weight: 600;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
