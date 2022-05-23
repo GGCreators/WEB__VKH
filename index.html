@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,700&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<title>Document</title>
 </head>
 
@@ -66,9 +67,112 @@
 			</div>
 		</header>
 		<main class="main">
-			Content
+			<!-- #region Section Announce -->
+			<section class="announce">
+				<div class="announce__container">
+					<div class="announce__content">
+						<marquee behavior="scroll" scrollamount="5" direction="left"><span
+								style="color:red; font-size: 24px;">Уважаемые абоненты!</span> ГУП «Водоснабжение и
+							водоотведение» уведомляет вас о необходимости заблаговременно за счет собственных средств
+							осуществить поверку приборов учета. В соответствии с Правилами предоставления услуг по питьевому
+							водоснабжению и водоотведению в ПМР показания водомеров с истекшим сроком поверки не могут
+							приниматься в расчетах. В случае если прибор учета не прошел поверку оплата за водоснабжение будет
+							переведена по нормам потребления. Обращаем ваше внимание, что именно на собственника прибора учета
+							(Абонента) возложена обязанность по своевременной поверке/замене прибора учета. ГУП «Водоснабжение
+							и водоотведение» лишь извещает своих абонентов о приближении сроков поверки за два месяца до его
+							окончания путем разноса уведомлений в почтовые ящики. Заказать комплексную услугу по поверке/замене
+							приборов учета можно в ЗАО «Метрологический Центр». Телефон для справок (533) 9-12-60.</marquee>
+					</div>
+				</div>
+			</section>
+			<!-- #endregion Section Announce -->
+
+			<!-- #region Section News -->
+			<section class="news">
+				<div class="news__container">
+					<div class="news__content js-flickity"
+						data-flickity-options='{ "wrapAround": true, "draggable": false, "autoPlay": true }'>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Поливной сезон - 2022г.</h1>
+								<img src="/img/news/news1.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Внимание!</h1>
+								<img src="/img/news/news4.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Полезная информация для предпринимателей!</h1>
+								<img src="/img/news/news3.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">5 часто задаваемых вопросов</h1>
+								<img src="/img/news/news4.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Объявление КРЭДО</h1>
+								<img src="/img/news/news5.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Реорганизация филиалов</h1>
+								<img src="/img/news/news6.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Уведомление о заблаговременной поверке счётчиков</h1>
+								<img src="/img/news/news7.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Внимание!</h1>
+								<img src="/img/news/news8.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+						<div class="news__item">
+							<a href="#">
+								<h1 class="news__title">Внимание!</h1>
+								<img src="/img/news/news9.jpg" alt="Новости ГУП Водоснабжение и водоотведение"
+									class="news__image">
+							</a>
+						</div>
+					</div>
+					<div class="news-arrow-left"></div>
+					<div class="news-arrow-right"></div>
+					<div class="news-dots"></div>
+				</div>
+			</section>
+			<!-- #endregion Section News -->
+
+			<!-- #region Section Tabs -->
+			<section class="tabs">
+				<div class="tabs__container">
+
+				</div>
+			</section>
+			<!-- #endregion Section Tabs -->
 		</main>
 		<footer class="footer">
+			<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 			Footer
 		</footer>
 	</div>
