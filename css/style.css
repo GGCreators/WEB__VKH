@@ -198,6 +198,7 @@ z-index: 50;
 .menu__item {
 }
 .menu__link {
+	color: #191970;
 }
 
 /* бургер меню */
