@@ -13,6 +13,7 @@
 
 <body>
 	<div class="wrapper">
+		<!-- #region Header -->
 		<header id="open" class="header">
 			<div id="close" class="header__container">
 				<div class="header__first">
@@ -66,6 +67,7 @@
 				</div>
 			</div>
 		</header>
+		<!-- #endregion Header -->
 		<main class="main">
 			<!-- #region Section Announce -->
 			<section class="announce">
@@ -91,7 +93,7 @@
 			<section class="news">
 				<div class="news__container">
 					<div class="news__content js-flickity"
-						data-flickity-options='{ "wrapAround": true, "draggable": false, "autoPlay": true }'>
+						data-flickity-options='{ "wrapAround": true, "draggable": false, "autoPlay": true, "groupCells": true }'>
 						<div class="news__item">
 							<a href="#">
 								<h1 class="news__title">Поливной сезон - 2022г.</h1>
@@ -156,9 +158,6 @@
 							</a>
 						</div>
 					</div>
-					<div class="news-arrow-left"></div>
-					<div class="news-arrow-right"></div>
-					<div class="news-dots"></div>
 				</div>
 			</section>
 			<!-- #endregion Section News -->
@@ -166,7 +165,73 @@
 			<!-- #region Section Tabs -->
 			<section class="tabs">
 				<div class="tabs__container">
-
+					<div class="tabs__item">
+						<img src="/img/tabs/block1.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block1-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Абонентам</h1>
+								<h2 class="tabs__text">Информация о регионах, нормативно-правовая база водоканала, ответы на
+									вопросы</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
+					<div class="tabs__item">
+						<img src="/img/tabs/block2.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block2-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Услуги</h1>
+								<h2 class="tabs__text">Широкий спектр услуг от установки счетчика до строительства сетей</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
+					<div class="tabs__item">
+						<img src="/img/tabs/block3.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block3-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Тарифы</h1>
+								<h2 class="tabs__text">Тарифы на обслуживание в ГУП "Водоснабжение и водоотведение"</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
+					<div class="tabs__item">
+						<img src="/img/tabs/block4.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block4-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Закупки</h1>
+								<h2 class="tabs__text">Открытый запрос коммерческих предложений</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
+					<div class="tabs__item">
+						<img src="/img/tabs/block5.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block5-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Внимание!</h1>
+								<h2 class="tabs__text">Сообщи о несанкционированном отборе воды!</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
+					<div class="tabs__item">
+						<img src="/img/tabs/block6.jpg" class="tabs__background">
+						<a href="#" class="tabs__link">
+							<div class="tabs__content">
+								<img src="/img/tabs/block6-icon.png" alt="" class="tabs__image">
+								<h1 class="tabs__header">Отключения</h1>
+								<h2 class="tabs__text">Информация об отключениях на сетях водоснабжения</h2>
+								<button class="tabs__button">Подробнее</button>
+							</div>
+						</a>
+					</div>
 				</div>
 			</section>
 			<!-- #endregion Section Tabs -->
