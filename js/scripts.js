@@ -25,3 +25,5 @@ class ItcAccordion {
 }
 
 new ItcAccordion('#techwork__adreses', { alwaysOpen: false });
+
+var tabs = new Tabby('[data-tabs]');
